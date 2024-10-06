@@ -211,15 +211,15 @@
     color: var(--color-black);
 }
 
-.title .animate_text {
+/* .title .animate_text {
     display: block;
     margin-left: 426px;
     height: 110px;
     margin-top: -75px;
     overflow: hidden;
-}
+} */
 
-.title .animate_text span {
+/* .title .animate_text span {
     display: block;
     animation: wordslide 7s infinite;
     padding: 13px 0;
@@ -236,9 +236,9 @@
     background-repeat: no-repeat;
     background-position: center ;
     z-index: -1;
-}
+} */
 
-@keyframes wordslide {
+/* @keyframes wordslide {
     10% {
         transform: translateY(-112%) ;
     }
@@ -263,7 +263,7 @@
     100% {
         transform: translateY(-400%) ;
     }
-}
+} */
 
 .hc-hero-content p {
     font-family: var(--fontfamily);
