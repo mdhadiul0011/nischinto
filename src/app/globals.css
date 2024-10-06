@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #0CB8B6;
+  --color-white: #fff;
+  --color-black: #111111;
+  --bg-white: #fff;
+  --fontfamily: "Playwrite DE Grund", cursive;
+  --secondary-bg: #0CB9B6;
+  --icons-color: #b5b5b5;
+  --text-color: #666;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ol, ul {
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  display: inline !important;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  white-space: nowrap
+}
